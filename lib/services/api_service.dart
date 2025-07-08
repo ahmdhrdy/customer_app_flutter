@@ -10,7 +10,7 @@ class ApiService {
   ApiService._internal();
 
   final String baseUrl = "https://www.pqstec.com/InvoiceApps/Values";
-  final String imageBaseUrl = "https://www.pqstec.com/InvoiceApps"; // No trailing slash
+  final String imageBaseUrl = "https://www.pqstec.com/InvoiceApps";
   String? _token;
 
   String? get token => _token; // Add getter for token
